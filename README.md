@@ -3,7 +3,7 @@ foundations
 ##These are my completed assignments for Foundations:
 
 ###Terminal Mapping
-https:/github.com/gng0101/foundations/foundations_hw1_drive_mapping.pdf
+https://github.com/gng0101/foundations/foundations_hw1_drive_mapping.pdf
 
 ###Dogs of NYC
 http://nbviewer.ipython.org/url/https:/github.com/gng0101/foundations/foundations_hw2_dogs.py
