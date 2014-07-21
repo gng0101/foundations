@@ -1,7 +1,6 @@
+# We will utilize census data in the following problems:
 
-# ##We will utilize census data in the following problems:
-
-# In[154]:
+# In[1]:
 
 # Importing census and state libraries
 from census import Census
@@ -20,7 +19,7 @@ c = Census(key)
 
 # ###2. What's the total number of people born in Slovakia or the Czech Republic in the US?
 
-# In[200]:
+# In[2]:
 
 # Using the Sunlight Foundation's census library to take our query to utilize the Census API and convert output to a dictionary 
 # Define variable as the c.acs function with an input of us for location and Czech Rep and Slovakia for the variable code)
@@ -32,7 +31,7 @@ print "There are " + total_born_slovaks_czechs_in_us[0]['B05006_032E'] + " peopl
 
 # ###3. How many people between the ages of 5 and 9 live in the ZIP code 11238?
 
-# In[145]:
+# In[3]:
 
 # Variable codes found at: http://api.census.gov/data/2012/acs3/variables.html
 # Male 5-9 = B01001_004E, Female 5-9 = B01001_028E
@@ -43,9 +42,9 @@ print "There are " + str(total) + " people between the ages of living in ZIP cod
 
 # ###4. Are there more Pakistani or Indian people in Queens County?
 
-# In[157]:
+# In[4]:
 
-# Variable codes found at: http://api.census.gov/data/2012/acs3/variables.html
+# Variable codes found at: http://api.census.gov/data/2012/acs5/variables.html
 # Pakistani = B02006_013E, Indian = B02006_002E
 # Input into Census function with acs method
 output = c.acs.state_county(('NAME', 'B02006_013E', 'B02006_002E'), states.NY.fips, ('81')) #note that the NY fips code = 36
@@ -53,7 +52,7 @@ output = c.acs.state_county(('NAME', 'B02006_013E', 'B02006_002E'), states.NY.fi
 output
 
 
-# In[158]:
+# In[5]:
 
 # Use an if/else function to assign to list larger_list the larger group name and population, then output as a string.
 Indian_pop = output[0]['B02006_002E']
@@ -67,7 +66,7 @@ print "The larger group of people is " + larger[0] + " with " + str(larger[1]) +
 
 # ###5. What state has the most people who work in the hunting & fishing industry?
 
-# In[43]:
+# In[6]:
 
 # Variable codes found at: http://api.census.gov/data/2012/acs5/variables.html
 # Hunting & Fishing = B24121_336E
@@ -90,7 +89,7 @@ print "The State of " + hunt_fish_list[0]['NAME'] + " has the most people who wo
 
 # ###6. What county in New York has the fewest people?
 
-# In[148]:
+# In[7]:
 
 # Assign retrieved Census population data for New York by county to a variable.
 ny_county_pop_list = c.acs.state_county(('NAME', 'B01003_001E'), str(states.NY.fips), '*')
@@ -105,7 +104,7 @@ print "The county in New York with the fewest people is " + sorted_ny_county_pop
 
 # ###7. Make a list of states, ordered by the number of graduate degrees.
 
-# In[49]:
+# In[8]:
 
 # Variable codes found at: http://api.census.gov/data/2012/acs3/variables.html
 # Bachelor's Degree = B06009_005E, Graduate or Profession Degree = B06009_006E
