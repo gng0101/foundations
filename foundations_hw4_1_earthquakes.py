@@ -1,4 +1,3 @@
-#
 # BABY QUAKEBOT!
 #
 # https://source.opennews.org/en-US/articles/how-break-news-while-you-sleep/
