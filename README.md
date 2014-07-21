@@ -1,5 +1,5 @@
 ===========
-foundations
+Foundations
 ===========
 ##These are my completed assignments for Foundations:
 
@@ -11,7 +11,7 @@ http://nbviewer.ipython.org/github/gng0101/foundations/blob/master/foundations_h
 http://nbviewer.ipython.org/github/gng0101/foundations/blob/master/foundations_hw2_dogs.ipynb
 
 
-###Len Parsing
+###Parsing the Len Function
 http://nbviewer.ipython.org/github/gng0101/foundations/blob/master/foundations_hw3_len.txt
 
 ###Earthquakes
@@ -27,5 +27,5 @@ http://nbviewer.ipython.org/github/gng0101/foundations/blob/master/foundations_h
 ###Encryption
 http://nbviewer.ipython.org/github/gng0101/foundations/blob/master/foundations_hw5_encryption.txt
 
-###Drone Strikes
+###Mapping Drone Strikes
 https://www.google.com/fusiontables/DataSource?docid=1k2-_Qtr_1A2pf8-R-Q1jg7_PoEmHcHeF0iLRcB06#map:id=3
