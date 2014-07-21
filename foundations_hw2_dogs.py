@@ -1,4 +1,3 @@
-
 # #Homework
 # 
 # You can find the complete dogs.csv at http://jonathansoma.com/lede/dogs.csv. Using a new IPython notebook, find out...
