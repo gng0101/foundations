@@ -1,6 +1,4 @@
 
-# coding: utf-8
-
 # ##We will utilize census data in the following problems:
 
 # In[154]:
